@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+ .hero-section {
+  position: relative;
+  text-align: center;
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+}
+
+/* Estilo para la imagen de fondo */
+.hero-section img {
+  width: 100%; /* Asegura que la imagen cubra todo el ancho del contenedor */
+}
+
+.button-inside-hero {
+  position: absolute;
+  bottom: 200px; /* Ajusta la posición vertical del botón según sea necesario (mayor valor para moverlo más arriba) */
+  left: 20%; /* Coloca el botón en el centro horizontal */
+  transform: translateX(-50%);
+  /* Estilos de diseño para el botón, como color de fondo y tipografía */
+  padding: 10px 20px;
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  text-decoration: none; /* Quita el subrayado del enlace */
+  border: none; /* Quita el borde del botón */
+  border-radius: 5px; /* Agrega esquinas redondeadas al botón */
+  font-size: 18px;
+}
+
+.button-inside-hero:hover {
+  background-color: #0056b3; /* Color de fondo del botón al pasar el cursor */
+}
