@@ -1,0 +1,2 @@
+class Offerjob < ApplicationRecord
+end
